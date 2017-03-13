@@ -13,15 +13,15 @@
 		<!--App自定义的css-->
 		<!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
 		<style>
-			h5{
-		        padding-top: 8px;
-		        padding-bottom: 8px;
-		        text-indent: 12px;
-		    }
-		    
-			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body{
+			h5 {
+				padding-top: 8px;
+				padding-bottom: 8px;
+				text-indent: 12px;
+			}
+			
+			.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
 				font-size: 15px;
-				margin-top:8px;
+				margin-top: 8px;
 				color: #333;
 			}
 		</style>
@@ -29,43 +29,99 @@
 
 	<body>
 		<header class="mui-bar mui-bar-nav">
-		    <h1 class="mui-title">商品列表</h1>
+			<h1 class="mui-title">商品列表</h1>
 		</header>
+
 		<div class="mui-content" style="background-color:#fff">
-		    <h5 style="background-color:#efeff4">慢生活</h5>
-		    <ul class="mui-table-view mui-grid-view">
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html">
-		                <img class="mui-media-object" src="../images/shuijiao.jpg">
-		                <div class="mui-media-body">幸福就是可以一起睡觉</div></a></li>
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html">
-		                <img class="mui-media-object" src="../images/muwu.jpg">
-		                <div class="mui-media-body">想要一间这样的木屋，静静的喝咖啡</div></a></li>
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html"><img class="mui-media-object" src="../images/cbd.jpg">
-		                <div class="mui-media-body">Color of SIP CBD</div></a></li>
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html">
-		                <img class="mui-media-object" src="../images/yuantiao.jpg">
-		                <div class="mui-media-body">静静看这世界</div></a></li>
-		                
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html">
-		                <img class="mui-media-object" src="../images/PSVista.png">
-		                <div class="mui-media-body">PSVista</div></a></li>
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html">
-		                <img class="mui-media-object" src="../images/PSVista.png">
-		                <div class="mui-media-body">PSVista</div></a></li>
-		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
-		            <a href="detail.html">
-		                <img class="mui-media-object" src="../images/MacPro.jpg">
-		                <div class="mui-media-body">MacPro</div></a></li>
-		                <br><br><br><br>
-		    </ul>    
+			<h5 style="background-color:#efeff4">慢生活</h5>
+
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group">
+					<div class="mui-slider-item mui-slider-item-duplicate">
+
+						<ul class="mui-table-view mui-grid-view">
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html">
+									<img class="mui-media-object" src="../images/shuijiao.jpg">
+									<div class="mui-media-body">幸福就是可以一起睡觉</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html">
+									<img class="mui-media-object" src="../images/muwu.jpg">
+									<div class="mui-media-body">想要一间这样的木屋，静静的喝咖啡</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html"><img class="mui-media-object" src="../images/cbd.jpg">
+									<div class="mui-media-body">Color of SIP CBD</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html">
+									<img class="mui-media-object" src="../images/yuantiao.jpg">
+									<div class="mui-media-body">静静看这世界</div>
+								</a>
+							</li>
+
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html">
+									<img class="mui-media-object" src="../images/PSVista.png">
+									<div class="mui-media-body">PSVista</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html">
+									<img class="mui-media-object" src="../images/PSVista.png">
+									<div class="mui-media-body">PSVista</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-6">
+								<a href="detail.html">
+									<img class="mui-media-object" src="../images/MacPro.jpg">
+									<div class="mui-media-body">MacPro</div>
+								</a>
+							</li>
+							<br><br><br><br>
+						</ul>
+					</div>
+
+					<div class="mui-slider-item mui-slider-item-duplicate">
+
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+									<div class="mui-media-body">
+										幸福
+										<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/muwu.jpg">
+									<div class="mui-media-body">
+										木屋
+										<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="javascript:;">
+									<img class="mui-media-object mui-pull-left" src="../images/cbd.jpg">
+									<div class="mui-media-body">
+										CBD
+										<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		
+
 		<!--底部导航条-->
 		<nav class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active" href="#tabbar">
@@ -89,7 +145,8 @@
 	<script src="../js/mui.min.js"></script>
 	<script>
 		mui.init({
-			swipeBack:true //启用右滑关闭功能
+			swipeBack: true //启用右滑关闭功能
 		});
 	</script>
+
 </html>
